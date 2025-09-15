@@ -129,3 +129,20 @@ En repartant du tableau numbers trié :
 - Affichez le tableau.
 - Supprimez le dernier élément du tableau avec la méthode pop().
 - Affichez le tableau.*/
+
+let number = [0,1,2,3,4,5,6,7,8,9];
+
+numbers.push(11);
+console.log("Après push(11) :");
+console.log(number);
+
+numbers.unshift(0);
+console.log("Après unshift(0) :");
+console.log(number);
+
+numbers.pop();
+console.log("Après pop() :");
+console.log(number);
+
+console.log("_________________________________________________________________________");
+console.log("\n");
