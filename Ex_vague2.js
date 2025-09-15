@@ -33,6 +33,10 @@ let personnes = [
 
 personnes.push({ prenom: "Marc", nom: "Doe", age: 32, ville: "Marseille" });
 
+personnes[0].prenom = "Jean";
+
+personnes.splice(1, 1);
+
 console.log("Affichage avec console.log() :");
 console.log(personnes);
 
@@ -51,3 +55,17 @@ console.log ("Ajout de Marc Doe, 32 ans de Marseille a l'exercice 2");
 console.log("_________________________________________________________________________");
 console.log("\n");
 
+/*Exercice 4 :
+Modifiez le premier objet du tableau personnes en utilisant la syntaxe suivante : personnes[0].prenom = "Jean"
+Supprimez le deuxième objet du tableau personnes en utilisant la méthode splice()
+Affichez le tableau personnes dans la console avec log() et table().*/
+
+console.log ("Modification du premier objet et suppression du deuxieme a l'exercice 2");
+
+console.log("_________________________________________________________________________");
+console.log("\n");
+
+/*
+
+
+*/
