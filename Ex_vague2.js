@@ -66,6 +66,47 @@ console.log("___________________________________________________________________
 console.log("\n");
 
 /*
-
-
+Exercice 5 :
+Créez un tableau contenant les nombres de 1 à 10.
+ - Affichez le premier élément du tableau.
+ - Affichez le dernier élément du tableau.
+ - Affichez la longue
 */
+
+let nombres = [1,2,3,4,5,6,7,8,9,10];
+
+console.log("Premier élément : " + nombres[0]);
+console.log("Dernier élément : " + nombres[nombres.length - 1]);
+console.log("Longueur du tableau : " + nombres.length);
+
+
+console.log("_________________________________________________________________________");
+console.log("\n");
+
+/*
+Exercice 6 :
+Créez un tableau contenant les chiffres de 10 à 100 de 10 en 10.
+- Affichez le tableau.
+- Inversez le tableau avec la méthode reverse() puis affichez le tableau.*/
+
+console.log("_________________________________________________________________________");
+console.log("\n");
+
+/*Exercice 7 :
+Créez un tableau numbers = [ 2, 5, 1, 9, 0, 3, 7, 4, 6, 8 ]
+- Affichez le tableau.
+- Triez le tableau avec la méthode sort() puis affichez le tableau */
+
+
+
+console.log("_________________________________________________________________________");
+console.log("\n");
+
+/*Exercice 8 :
+En repartant du tableau numbers trié :
+- Ajoutez le nombre 11 à la fin du tableau avec la méthode push().
+- Affichez le tableau.
+- Ajoutez le nombre 0 au début du tableau avec la méthode unshift().
+- Affichez le tableau.
+- Supprimez le dernier élément du tableau avec la méthode pop().
+- Affichez le tableau.*/
