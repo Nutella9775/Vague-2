@@ -45,6 +45,7 @@ console.table(personnes);
 
 console.log("_________________________________________________________________________");
 console.log("\n");
+
 /*Exercice 3 :
 Ajoutez un objet à la fin du tableau personnes avec la méthode push() :
 - {prenom: " Marc", nom: "Doe", age: 32, ville: "Marseille"}
@@ -99,7 +100,6 @@ chiffres.reverse();
 console.log("Tableau inversé :");
 console.table(chiffres);
 
-
 console.log("_________________________________________________________________________");
 console.log("\n");
 
@@ -108,6 +108,14 @@ Créez un tableau numbers = [ 2, 5, 1, 9, 0, 3, 7, 4, 6, 8 ]
 - Affichez le tableau.
 - Triez le tableau avec la méthode sort() puis affichez le tableau */
 
+let numbers = [2, 5, 1, 9, 0, 3, 7, 4, 6, 8];
+
+console.log("Tableau original :");
+console.log(numbers);
+numbers.sort((a, b) => a - b);
+
+console.log("Tableau trié :");
+console.log(numbers);
 
 
 console.log("_________________________________________________________________________");
