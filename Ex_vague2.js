@@ -89,6 +89,17 @@ Créez un tableau contenant les chiffres de 10 à 100 de 10 en 10.
 - Affichez le tableau.
 - Inversez le tableau avec la méthode reverse() puis affichez le tableau.*/
 
+let chiffres = [10,20,30,40,50,60,70,80,90,100];
+
+console.log("Tableau original :");
+console.table(chiffres);
+
+chiffres.reverse();
+
+console.log("Tableau inversé :");
+console.table(chiffres);
+
+
 console.log("_________________________________________________________________________");
 console.log("\n");
 
